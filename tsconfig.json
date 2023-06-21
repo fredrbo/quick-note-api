@@ -4,7 +4,10 @@
       "esModuleInterop": true,
       "target": "es6",
       "outDir": "dist",
-      "strict": true
+      "strict": true,
+      "experimentalDecorators": true,
+      "strictPropertyInitialization": false,
+      "emitDecoratorMetadata": true
     },
     "include": ["src"]
   }
